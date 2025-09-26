@@ -20,7 +20,7 @@
 % 0) Definir el vector en paraview: sources > line > introducir point1 y point2
 % 1) malla volumetrica total con las etiquetas necesarias para Elvira
 % 2) paraview > cargar la malla .vtk en hexaedros ya etiquetada > threshold > RegionID (donde quieres cambiar las fibras, también puedes hacer un clip activando crinkle clip siempre) ---> guardar como .vtk (esto es la malla volumétrica de la region)
-% 3) a partir de la anterior > threshold (si existe surfnodes = 1 // si no existe filters > extractregionsurface > threshold = 5 ... cuidado con las cositas pequeñas flotando) > filters > extract surface > filters > triangulate > connectivity > threshold > guardar por separado epi y endo como .vtk
+% 3) a partir de la anterior > threshold (si existe surfnodes = 1 // si no existe filters > extractregionsurface > threshold (CellFacesIds) = 5 ... cuidado con las cositas pequeñas flotando) > filters > extract surface > filters > triangulate > connectivity > threshold > guardar por separado epi y endo como .vtk
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -554,4 +554,5 @@ function mesh = add_data_f(mesh,type,name,format,width,pointcell)
             %end the function
             return;
     end
+
 end
