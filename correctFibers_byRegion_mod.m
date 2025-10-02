@@ -2,8 +2,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% AUTHORSHIP -------------------------------------------------------- %%%
 %                  Author:     Sandra Perez Herrero
-%           Creation date:     28/11/2024
-%       Last modification:     28/11/2024
+%           Creation date:     02/10/2025
+%       Last modification:     02/10/2025
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % Este código tiene como objetivo modificar de forma aislada las fibras en
@@ -556,3 +556,4 @@ function mesh = add_data_f(mesh,type,name,format,width,pointcell)
     end
 
 end
+
