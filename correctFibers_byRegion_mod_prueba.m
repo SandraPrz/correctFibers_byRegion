@@ -2,8 +2,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% AUTHORSHIP -------------------------------------------------------- %%%
 %                  Author:     Sandra Perez Herrero
-%           Creation date:     28/11/2024
-%       Last modification:     28/11/2024
+%           Creation date:     02/10/2025
+%       Last modification:     02/10/2025
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % Este código tiene como objetivo modificar de forma aislada las fibras en
@@ -1029,4 +1029,5 @@ function centroids = extract_centroids_f(mesh)
         centroids(i,:)=[mesh.cells(i,1),centroid];
     end
 end
+
 
